@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A518F5642A016FC4002B6763 /* QualiteaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518F5632A016FC4002B6763 /* QualiteaApp.swift */; };
+		A518F5682A016FC6002B6763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518F5672A016FC6002B6763 /* Assets.xcassets */; };
+		A518F56B2A016FC6002B6763 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A518F56A2A016FC6002B6763 /* Preview Assets.xcassets */; };
+		A575F6642A1D8DDA00E56E6C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6632A1D8DDA00E56E6C /* MainView.swift */; };
+		A575F6662A1D8E7000E56E6C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6652A1D8E7000E56E6C /* TabButton.swift */; };
+		A575F66B2A1E692000E56E6C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F66A2A1E692000E56E6C /* SideMenu.swift */; };
+		A575F66D2A1E6A1600E56E6C /* Home2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F66C2A1E6A1500E56E6C /* Home2.swift */; };
+		A575F6722A1ECC7400E56E6C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6712A1ECC7400E56E6C /* ListView.swift */; };
+		A575F6742A1ECFD000E56E6C /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6732A1ECFD000E56E6C /* ListRowView.swift */; };
+		A575F6782A1F0B8200E56E6C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6772A1F0B8200E56E6C /* ItemModel.swift */; };
+		A575F67A2A1FE9B000E56E6C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575F6792A1FE9B000E56E6C /* ListViewModel.swift */; };
+		A5C7D7BF2A273CA300DDAB59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C7D7BE2A273CA300DDAB59 /* ContentView.swift */; };
+		A5C7D7C12A273D6300DDAB59 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C7D7C02A273D6300DDAB59 /* CustomCorners.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A518F5602A016FC4002B6763 /* Qualitea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qualitea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A518F5632A016FC4002B6763 /* QualiteaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualiteaApp.swift; sourceTree = "<group>"; };
+		A518F5672A016FC6002B6763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A518F56A2A016FC6002B6763 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A575F6632A1D8DDA00E56E6C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A575F6652A1D8E7000E56E6C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		A575F66A2A1E692000E56E6C /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		A575F66C2A1E6A1500E56E6C /* Home2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2.swift; sourceTree = "<group>"; };
+		A575F6712A1ECC7400E56E6C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A575F6732A1ECFD000E56E6C /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		A575F6772A1F0B8200E56E6C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		A575F6792A1FE9B000E56E6C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A5C7D7BE2A273CA300DDAB59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5C7D7C02A273D6300DDAB59 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A518F55D2A016FC4002B6763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A518F5572A016FC4002B6763 = {
+			isa = PBXGroup;
+			children = (
+				A518F5622A016FC4002B6763 /* Qualitea */,
+				A518F5612A016FC4002B6763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A518F5612A016FC4002B6763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A518F5602A016FC4002B6763 /* Qualitea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A518F5622A016FC4002B6763 /* Qualitea */ = {
+			isa = PBXGroup;
+			children = (
+				A518F5632A016FC4002B6763 /* QualiteaApp.swift */,
+				A575F6762A1F0B6800E56E6C /* Model */,
+				A575F6672A1D8EB300E56E6C /* View */,
+				A575F6702A1EC88D00E56E6C /* ToDo */,
+				A518F5672A016FC6002B6763 /* Assets.xcassets */,
+				A518F5692A016FC6002B6763 /* Preview Content */,
+			);
+			path = Qualitea;
+			sourceTree = "<group>";
+		};
+		A518F5692A016FC6002B6763 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A518F56A2A016FC6002B6763 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A575F6672A1D8EB300E56E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A575F6652A1D8E7000E56E6C /* TabButton.swift */,
+				A575F66A2A1E692000E56E6C /* SideMenu.swift */,
+				A575F6632A1D8DDA00E56E6C /* MainView.swift */,
+				A575F66C2A1E6A1500E56E6C /* Home2.swift */,
+				A5C7D7C02A273D6300DDAB59 /* CustomCorners.swift */,
+				A575F6732A1ECFD000E56E6C /* ListRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A575F6702A1EC88D00E56E6C /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				A575F6712A1ECC7400E56E6C /* ListView.swift */,
+				A5C7D7BE2A273CA300DDAB59 /* ContentView.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		A575F6762A1F0B6800E56E6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A575F6772A1F0B8200E56E6C /* ItemModel.swift */,
+				A575F6792A1FE9B000E56E6C /* ListViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A518F55F2A016FC4002B6763 /* Qualitea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A518F56E2A016FC6002B6763 /* Build configuration list for PBXNativeTarget "Qualitea" */;
+			buildPhases = (
+				A518F55C2A016FC4002B6763 /* Sources */,
+				A518F55D2A016FC4002B6763 /* Frameworks */,
+				A518F55E2A016FC4002B6763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qualitea;
+			productName = Qualitea;
+			productReference = A518F5602A016FC4002B6763 /* Qualitea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A518F5582A016FC4002B6763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A518F55F2A016FC4002B6763 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A518F55B2A016FC4002B6763 /* Build configuration list for PBXProject "Qualitea" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A518F5572A016FC4002B6763;
+			productRefGroup = A518F5612A016FC4002B6763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A518F55F2A016FC4002B6763 /* Qualitea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A518F55E2A016FC4002B6763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A518F56B2A016FC6002B6763 /* Preview Assets.xcassets in Resources */,
+				A518F5682A016FC6002B6763 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A518F55C2A016FC4002B6763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A575F6782A1F0B8200E56E6C /* ItemModel.swift in Sources */,
+				A5C7D7BF2A273CA300DDAB59 /* ContentView.swift in Sources */,
+				A575F6722A1ECC7400E56E6C /* ListView.swift in Sources */,
+				A575F6642A1D8DDA00E56E6C /* MainView.swift in Sources */,
+				A575F66B2A1E692000E56E6C /* SideMenu.swift in Sources */,
+				A5C7D7C12A273D6300DDAB59 /* CustomCorners.swift in Sources */,
+				A518F5642A016FC4002B6763 /* QualiteaApp.swift in Sources */,
+				A575F66D2A1E6A1600E56E6C /* Home2.swift in Sources */,
+				A575F6662A1D8E7000E56E6C /* TabButton.swift in Sources */,
+				A575F6742A1ECFD000E56E6C /* ListRowView.swift in Sources */,
+				A575F67A2A1FE9B000E56E6C /* ListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A518F56C2A016FC6002B6763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A518F56D2A016FC6002B6763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A518F56F2A016FC6002B6763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qualitea/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Smile.Qualitea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A518F5702A016FC6002B6763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Qualitea/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Smile.Qualitea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A518F55B2A016FC4002B6763 /* Build configuration list for PBXProject "Qualitea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518F56C2A016FC6002B6763 /* Debug */,
+				A518F56D2A016FC6002B6763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A518F56E2A016FC6002B6763 /* Build configuration list for PBXNativeTarget "Qualitea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A518F56F2A016FC6002B6763 /* Debug */,
+				A518F5702A016FC6002B6763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A518F5582A016FC4002B6763 /* Project object */;
+}
